@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 150" role="img" aria-labelledby="logo-title">
+  <title id="logo-title">Monogram MM</title>
+  <g
+    fill="none"
+    stroke="#D7C29D"
+    stroke-width="7"
+    stroke-linecap="square"
+    stroke-linejoin="miter"
+  >
+    <path d="M25 125V22L78 82L114 25V125" />
+    <path d="M92 125V64L137 112L191 40V125" />
+  </g>
+</svg>
+
