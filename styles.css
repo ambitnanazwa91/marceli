@@ -4,8 +4,8 @@
   --ink: #17272b;
   --ivory: #f5f1e8;
   --paper: #fbf9f4;
-  --sand: #d7c29d;
-  --brass: #b68a4b;
+  --sand: #927d52;
+  --brass: #806b43;
   --line: rgba(13, 38, 48, 0.16);
   --muted: #687378;
   --white: #fffdf8;
@@ -38,7 +38,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .site-header.scrolled { background: rgba(13, 38, 48, .95); box-shadow: 0 8px 28px rgba(4, 20, 25, .12); backdrop-filter: blur(12px); }
 .header-inner { min-height: 92px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid rgba(255,255,255,.22); }
 .brand { display: inline-flex; align-items: center; gap: 13px; text-decoration: none; }
-.brand-logo { width: 58px; height: 43px; object-fit: contain; flex: 0 0 auto; }
+.brand-logo { width: 52px; height: 52px; object-fit: contain; flex: 0 0 auto; }
 .brand-copy { display: flex; flex-direction: column; line-height: 1.15; letter-spacing: .02em; }
 .brand-copy strong { font-size: 15px; font-weight: 600; text-transform: uppercase; }
 .brand-copy small { font-size: 11px; letter-spacing: .2em; text-transform: uppercase; opacity: .72; }
@@ -49,8 +49,8 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .menu-toggle { display: none; }
 
 .hero { min-height: 860px; color: var(--white); background: var(--navy); position: relative; overflow: hidden; }
-.hero::before { content: ""; position: absolute; width: 520px; height: 720px; border: 1px solid rgba(215,194,157,.19); border-radius: 260px 260px 0 0; right: -65px; top: 110px; }
-.hero::after { content: ""; position: absolute; width: 300px; height: 580px; border: 1px solid rgba(215,194,157,.09); border-radius: 160px 160px 0 0; right: 45px; top: 220px; }
+.hero::before { content: ""; position: absolute; width: 520px; height: 720px; border: 1px solid rgba(146,125,82,.22); border-radius: 260px 260px 0 0; right: -65px; top: 110px; }
+.hero::after { content: ""; position: absolute; width: 300px; height: 580px; border: 1px solid rgba(146,125,82,.11); border-radius: 160px 160px 0 0; right: 45px; top: 220px; }
 .hero-grid { padding-top: 196px; display: grid; grid-template-columns: 1.28fr .72fr; align-items: center; gap: 90px; position: relative; z-index: 2; }
 .eyebrow { margin: 0 0 22px; color: var(--brass); text-transform: uppercase; letter-spacing: .21em; font-size: 12px; font-weight: 600; }
 .hero h1, .section h2, .contact h2, .privacy-dialog h2 { font-family: "Playfair Display", serif; font-weight: 500; line-height: 1.03; letter-spacing: -.025em; margin: 0; }
@@ -61,7 +61,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .button { display: inline-flex; align-items: center; justify-content: center; min-height: 52px; padding: 0 24px; text-decoration: none; font-size: 14px; font-weight: 600; letter-spacing: .025em; border: 1px solid transparent; transition: transform .2s, background .2s, color .2s; }
 .button:hover { transform: translateY(-2px); }
 .button-primary { background: var(--sand); color: var(--navy); }
-.button-primary:hover { background: #e5d6bc; }
+.button-primary:hover { background: #aa9365; }
 .text-link { text-decoration: none; border-bottom: 1px solid rgba(255,255,255,.32); padding: 10px 0 7px; }
 .text-link span { margin-left: 8px; color: var(--sand); }
 
@@ -100,11 +100,11 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .approach { background: var(--ivory); }
 .approach-grid { display: grid; grid-template-columns: .95fr 1.05fr; gap: 120px; align-items: center; }
 .approach-visual { min-height: 620px; background: var(--navy); color: var(--white); position: relative; overflow: hidden; display: flex; align-items: flex-end; padding: 50px; }
-.approach-visual::after { content: ""; position: absolute; inset: 0; background: linear-gradient(135deg, transparent 30%, rgba(215,194,157,.08)); }
-.arch { position: absolute; border: 1px solid rgba(215,194,157,.24); border-bottom: 0; border-radius: 50% 50% 0 0; }
+.approach-visual::after { content: ""; position: absolute; inset: 0; background: linear-gradient(135deg, transparent 30%, rgba(146,125,82,.1)); }
+.arch { position: absolute; border: 1px solid rgba(146,125,82,.28); border-bottom: 0; border-radius: 50% 50% 0 0; }
 .arch-outer { width: 430px; height: 525px; left: 90px; top: 95px; }
 .arch-inner { width: 280px; height: 400px; left: 165px; top: 220px; }
-.visual-logo { position: absolute; z-index: 2; right: 35px; top: 24px; width: 94px; height: 66px; object-fit: contain; }
+.visual-logo { position: absolute; z-index: 2; right: 35px; top: 24px; width: 88px; height: 88px; object-fit: contain; }
 .approach-visual p { position: relative; z-index: 2; margin: 0; font-family: "Playfair Display", serif; font-size: 44px; line-height: 1.05; }
 .approach-visual em { color: var(--sand); }
 .approach-copy h2 { max-width: 600px; }
