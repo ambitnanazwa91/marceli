@@ -38,7 +38,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .site-header.scrolled { background: rgba(13, 38, 48, .95); box-shadow: 0 8px 28px rgba(4, 20, 25, .12); backdrop-filter: blur(12px); }
 .header-inner { min-height: 92px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid rgba(255,255,255,.22); }
 .brand { display: inline-flex; align-items: center; gap: 13px; text-decoration: none; }
-.brand-mark { display: grid; place-items: center; width: 43px; height: 43px; border: 1px solid currentColor; border-radius: 50%; font-family: "Playfair Display", serif; font-size: 23px; }
+.brand-logo { width: 58px; height: 43px; object-fit: contain; flex: 0 0 auto; }
 .brand-copy { display: flex; flex-direction: column; line-height: 1.15; letter-spacing: .02em; }
 .brand-copy strong { font-size: 15px; font-weight: 600; text-transform: uppercase; }
 .brand-copy small { font-size: 11px; letter-spacing: .2em; text-transform: uppercase; opacity: .72; }
@@ -104,7 +104,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .arch { position: absolute; border: 1px solid rgba(215,194,157,.24); border-bottom: 0; border-radius: 50% 50% 0 0; }
 .arch-outer { width: 430px; height: 525px; left: 90px; top: 95px; }
 .arch-inner { width: 280px; height: 400px; left: 165px; top: 220px; }
-.visual-mark { position: absolute; z-index: 2; right: 45px; top: 30px; color: var(--sand); font-family: "Playfair Display", serif; font-size: 55px; }
+.visual-logo { position: absolute; z-index: 2; right: 35px; top: 24px; width: 94px; height: 66px; object-fit: contain; }
 .approach-visual p { position: relative; z-index: 2; margin: 0; font-family: "Playfair Display", serif; font-size: 44px; line-height: 1.05; }
 .approach-visual em { color: var(--sand); }
 .approach-copy h2 { max-width: 600px; }
