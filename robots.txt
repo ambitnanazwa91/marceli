@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ambitnanazwa91.github.io/marceli/sitemap.xml
+
